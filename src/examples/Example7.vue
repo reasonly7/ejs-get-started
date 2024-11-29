@@ -33,18 +33,16 @@ const b = ejs.render(a, { text: 'Hello, World!' });
     textarea {
       resize: none;
       font-family: consolas;
-      font-size: 12px;
       padding: 16px;
     }
   }
   .output {
-    height: 222px;
+    height: 253px;
     flex: 1;
     background-color: #f1f1f1;
     padding: 16px;
     border-radius: 4px;
     font-family: consolas;
-    font-size: 12px;
   }
 }
 </style>
