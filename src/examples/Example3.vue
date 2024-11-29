@@ -2,7 +2,8 @@
 import { Textarea } from 'ant-design-vue';
 import ejs from 'ejs';
 
-const a = `     <%_ %>Hello, <%= name %>!`;
+const a = `Hello, <%= name %>!`;
+
 const b = ejs.render(a, { name: 'EJS' });
 </script>
 
