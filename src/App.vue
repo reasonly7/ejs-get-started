@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { TypographyTitle } from 'ant-design-vue';
 import Example1 from './examples/Example1.vue';
+import Example2 from './examples/Example2.vue';
 </script>
 
 <template>
@@ -8,13 +9,13 @@ import Example1 from './examples/Example1.vue';
     <TypographyTitle>EJS Examples</TypographyTitle>
 
     <section>
-      <TypographyTitle :level="3">基础用法</TypographyTitle>
+      <TypographyTitle :level="3">bind</TypographyTitle>
       <Example1></Example1>
     </section>
 
     <section>
-      <TypographyTitle :level="3">基础用法</TypographyTitle>
-      <Example1></Example1>
+      <TypographyTitle :level="3">if</TypographyTitle>
+      <Example2></Example2>
     </section>
   </main>
 </template>
