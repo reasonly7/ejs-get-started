@@ -15,8 +15,8 @@ $ pnpm add @types/ejs -D
 import { Textarea } from 'ant-design-vue';
 import ejs from 'ejs';
 
-const a = `<% if(name) { %>
-Hello, <%= name %>
+const a = `<% if(name) { -%>
+  Hello, <%= name %>
 <% } %>`;
 let b = '';
 
