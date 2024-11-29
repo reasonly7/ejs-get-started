@@ -23,7 +23,7 @@ import Example1 from './examples/Example1.vue';
 .page-wrapper {
   padding: 20px;
   > section {
-    margin-bottom: 20px;
+    margin-bottom: 100px;
   }
 }
 </style>

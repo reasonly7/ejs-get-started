@@ -19,6 +19,7 @@
     "vue": "^3.5.10"
   },
   "devDependencies": {
+    "@types/ejs": "^3.1.5",
     "@types/lodash-es": "^4.17.12",
     "@types/node": "^22.7.7",
     "@vitejs/plugin-vue": "^5.1.4",
