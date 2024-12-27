@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { Textarea } from 'ant-design-vue';
 import ejs from 'ejs';
+import { computed, ref } from 'vue';
 
-const a = `Hello, <%= name %>!`;
+const a = ref(`Hello, <%= name %>!`);
 
-const b = ejs.render(a, { name: 'EJS' });
+const b = computed(() => ejs.render(a.value, { name: 'EJS' }));
 </script>
 
 <template>
